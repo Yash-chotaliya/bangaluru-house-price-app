@@ -16,7 +16,7 @@ import org.json.JSONObject
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
-    private val url = "https://bangaluru-house-price-model.onrender.com/predict"
+    private val url = "https://bangaluru-house-price-predicter.onrender.com/predict"
     private val locations = getLocations()
 
     override fun onCreate(savedInstanceState: Bundle?) {
